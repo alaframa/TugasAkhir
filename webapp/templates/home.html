@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}
+{{title}}
+{% endblock %}
+{% block content %}
+<div class="container content">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Project Overview</h2>
+            <p>This project involves the development of a real-time IoT-based energy monitoring and control system
+                using ESP32 nodes equipped with 3 PZEM sensor modules to detect 3-phase electricity. The system
+                includes a remote server for gathering, monitoring, and logging data from the nodes.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Node Technologies</h2>
+            <ul>
+                <li>FreeRTOS</li>
+                <li>Flash</li>
+                <li>Multi-core Processing</li>
+                <li>Network Management</li>
+                <li>Remote Configuration</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Server Technologies</h2>
+            <ul>
+                <li>Node-RED</li>
+                <li>Flask</li>
+                <li>Python</li>
+                <li>Mosquitto</li>
+                <li>MySQL</li>
+                <li>InfluxDB</li>
+                <li>Grafana</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Features</h2>
+            <ul>
+                <li>User Authentication with email-based token sending</li>
+                <li>Handling both MQTT and HTTP data from nodes</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Project Gallery</h2>
+            <p>Below are some images and schematic diagrams of the project:</p>
+            <img src="schematic.jpg" alt="Schematic Diagram" class="project-img">
+            <img src="photo1.jpg" alt="Project Photo 1" class="project-img">
+            <img src="photo2.jpg" alt="Project Photo 2" class="project-img">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>About</h2>
+            <p>This project is my biggest solo endeavor, integrating various technologies and systems to create a
+                comprehensive energy monitoring solution.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
